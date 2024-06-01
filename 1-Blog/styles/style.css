@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.logo span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    background: #4B5563;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.search label {
+    background: #1F293799;
+}
+
+.search input {
+    background: #1F293799;
+    color: #ffffff;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.topic {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.topic img {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+}
+
+.author .name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.author .profession {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.definition {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p a {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #121928;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
