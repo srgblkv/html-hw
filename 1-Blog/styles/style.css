@@ -2,6 +2,11 @@ body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    margin: 0;
+}
+
+header {
+    padding: 80px 180px 70px;
 }
 
 .logo span {
@@ -10,6 +15,8 @@ body {
     font-weight: 600;
     line-height: 23px;
     background: #4B5563;
+    padding: 6px 12px;
+    border-radius: 3px;
 }
 
 .logo {
@@ -29,13 +36,29 @@ nav a {
 
 }
 
-.search label {
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search {
+    width: 224px;
+    height: 40px;
     background: #1F293799;
+    padding: 12px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.search label {
+    margin: 0 18px;
 }
 
 .search input {
-    background: #1F293799;
+    background: rgba(0, 0, 0, 0);
+    border: none;
     color: #ffffff;
+    width: 120px;
 }
 
 .search input::placeholder {
@@ -51,6 +74,7 @@ nav a {
     line-height: 16.41px;
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
+    margin-bottom: 14px;
 }
 
 .topic img {
@@ -62,16 +86,20 @@ h1 {
     font-weight: 400;
     line-height: 38px;
     text-align: center;
+    width: 525px;
+    margin: 0 auto 30px;
 }
 
 .author {
-    text-align: center;
+    width: 214px;
+    margin: 0 auto 28px;
 }
 
 .author .name {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin: 0;
 }
 
 .author .profession {
@@ -79,6 +107,25 @@ h1 {
     font-weight: 400;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+section {
+    width: 896px;
+    margin: 0 auto;
+}
+
+section p {
+    padding: 0 95px;
+    margin: 40px auto;
+}
+
+section .definition {
+    margin-top: 69px;
+}
+
+section p:last-child {
+    margin-bottom: 69px;
 }
 
 .definition {
@@ -104,4 +151,5 @@ footer {
     line-height: 28px;
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto 77px;
 }
