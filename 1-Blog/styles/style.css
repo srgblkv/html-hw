@@ -13,16 +13,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 77px
 }
 
 main,
 header {
     max-width: 1080px;
-}
-
-.links {
-    display: flex;
-    gap: 77px
 }
 
 main {
@@ -56,6 +52,10 @@ a {
     text-decoration: none;
 }
 
+nav {
+    flex: 1;
+}
+
 nav ul {
     margin: 0;
     list-style: none;
@@ -63,6 +63,10 @@ nav ul {
     display: flex;
     gap: 40px;
     align-items: baseline;
+}
+
+li>a:hover {
+    text-decoration: underline;
 }
 
 .search {
