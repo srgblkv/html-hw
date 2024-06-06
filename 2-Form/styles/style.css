@@ -1,0 +1,53 @@
+body {
+    background-color: #F39494;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+form {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+p {
+    color: #666666;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+}
+
+input::placeholder {
+    background-color: #F5F5F5;
+    font-weight: 400;
+    font-style: italic;
+}
+
+label {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+
+button {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #089FE0;
+}

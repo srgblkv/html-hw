@@ -1,0 +1,161 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+header {
+    margin: 0 auto;
+    padding: 71px 0 69px;
+}
+
+main,
+header {
+    width: 1080px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.logo span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    background: #4B5563;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
+
+.search input {
+    font-size: 16px;
+    width: 224px;
+    height: 40px;
+    background: #1F293799;
+    padding: 12px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    padding: 12px 11px 9px 49px;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.topic {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.topic img {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    width: 525px;
+    margin: 0 auto 30px;
+}
+
+.author {
+    width: 214px;
+    margin: 0 auto 28px;
+}
+
+.author .name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+.author .profession {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+section {
+    width: 896px;
+    margin: 0 auto;
+}
+
+section p {
+    padding: 0 95px;
+    margin: 30px auto;
+}
+
+.definition {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #121928;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto 77px;
+}
