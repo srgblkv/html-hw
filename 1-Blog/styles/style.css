@@ -6,7 +6,17 @@ body {
 }
 
 header {
-    padding: 80px 180px 70px;
+    margin: 0 auto;
+    padding: 71px 0 69px;
+}
+
+main,
+header {
+    width: 1080px;
+}
+
+main {
+    margin: 0 auto;
 }
 
 .logo span {
@@ -27,7 +37,7 @@ header {
     text-decoration: none;
 }
 
-nav a {
+a {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -42,23 +52,26 @@ nav ul {
 }
 
 .search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
+
+.search input {
+    font-size: 16px;
     width: 224px;
     height: 40px;
     background: #1F293799;
     padding: 12px 10px 10px;
     box-sizing: border-box;
     border-radius: 100px;
-}
-
-.search label {
-    margin: 0 18px;
-}
-
-.search input {
-    background: rgba(0, 0, 0, 0);
     border: none;
     color: #ffffff;
-    width: 120px;
+    padding: 12px 11px 9px 49px;
 }
 
 .search input::placeholder {
@@ -117,15 +130,7 @@ section {
 
 section p {
     padding: 0 95px;
-    margin: 40px auto;
-}
-
-section .definition {
-    margin-top: 69px;
-}
-
-section p:last-child {
-    margin-bottom: 69px;
+    margin: 30px auto;
 }
 
 .definition {
@@ -142,6 +147,7 @@ p {
 
 p a {
     color: #ffffff;
+    text-decoration: underline;
 }
 
 footer {
