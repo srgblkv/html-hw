@@ -1,6 +1,8 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #ffffff;
     margin: 0;
 }
@@ -8,11 +10,15 @@ body {
 header {
     margin: 0 auto;
     padding: 71px 0 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 77px
 }
 
 main,
 header {
-    width: 1080px;
+    max-width: 1080px;
 }
 
 main {
@@ -20,12 +26,13 @@ main {
 }
 
 .logo span {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
     background: #4B5563;
     padding: 6px 12px;
+    margin-right: 11px;
     border-radius: 3px;
 }
 
@@ -43,12 +50,23 @@ a {
     line-height: 19px;
     color: #ffffff;
     text-decoration: none;
+}
 
+nav {
+    flex: 1;
 }
 
 nav ul {
+    margin: 0;
     list-style: none;
     padding: 0;
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+}
+
+li>a:hover {
+    text-decoration: underline;
 }
 
 .search {
@@ -92,6 +110,7 @@ nav ul {
 
 .topic img {
     vertical-align: middle;
+    padding: 0 12px;
 }
 
 h1 {
@@ -104,8 +123,11 @@ h1 {
 }
 
 .author {
-    width: 214px;
     margin: 0 auto 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 
 .author .name {
@@ -126,6 +148,10 @@ h1 {
 section {
     width: 896px;
     margin: 0 auto;
+}
+
+section>img {
+    margin-bottom: 69px;
 }
 
 section p {
@@ -157,5 +183,5 @@ footer {
     line-height: 28px;
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
-    margin: 0 auto 77px;
+    margin: 77px auto;
 }
