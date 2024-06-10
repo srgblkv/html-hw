@@ -75,6 +75,7 @@ input:not([type="checkbox"]) {
     width: 394px;
     height: 44px;
     padding: 9px 11px;
+    caret-color: #089FE0;
 }
 
 input::placeholder {
@@ -139,4 +140,41 @@ button:hover {
 button>img {
     position: absolute;
     right: 24px;
+}
+
+.checkbox {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+input[type='checkbox'] {
+    opacity: 0;
+    cursor: pointer;
+}
+
+input[type='checkbox']:checked+label[for='accept']::before {
+    background-color: #089fe0;
+    line-height: 16px;
+    content: '✖';
+    padding: 0 3px;
+    color: white;
+}
+
+label[for="accept"] {
+    cursor: pointer;
+}
+
+label[for='accept']::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin: 2px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #f5f5f5;
+    font-size: 11px;
 }
