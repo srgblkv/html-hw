@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --color-bg-primary: #ffffff;
+    --color-db-secondary: #357EFE;
+    --color-text-description: #4E5D7C80;
+    --max-width: 1392px;
+    --min-width: 375px;
+    --max-width-card: 328px;
+    --max-height-card: 507px;
+
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    min-width: var(--min-width);
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--color-bg-primary);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+}
