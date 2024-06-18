@@ -180,6 +180,7 @@
     width: 100%;
     border: none;
     border-radius: 47px;
+    cursor: pointer;
 }
 
 .button_primary {
