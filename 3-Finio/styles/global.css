@@ -7,16 +7,18 @@
 
 :root {
     --color-primary: #ffffff;
+    --color-primary-opacity: #FFFFFF99;
     --color-secondary: #357EFE;
     --color-discount: #1ABC9C;
     --color-description: #4E5D7C80;
     --color-props: #4E5D7C;
-    --color-hightlighter: #FFC736;
+    --color-highlighter: #FFC736;
+    --color-border: #4E5D7C14;
+    --color-border-light: #FFFFFF29;
     --max-width: 1392px;
     --min-width: 375px;
     --max-width-card: 369px;
     --min-width-card: 328px;
-    /* --max-height-card: 507px; */
 }
 
 html {
@@ -38,9 +40,4 @@ h3 {
 
 p {
     margin: 0;
-}
-
-hr {
-    margin: 0;
-    width: 100%;
 }
