@@ -1,20 +1,22 @@
 * {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
 }
 
 :root {
-    --color-bg-primary: #ffffff;
-    --color-db-secondary: #357EFE;
-    --color-text-description: #4E5D7C80;
+    --color-primary: #ffffff;
+    --color-secondary: #357EFE;
+    --color-discount: #1ABC9C;
+    --color-description: #4E5D7C80;
+    --color-props: #4E5D7C;
+    --color-hightlighter: #FFC736;
     --max-width: 1392px;
     --min-width: 375px;
-    --max-width-card: 328px;
-    --max-height-card: 507px;
-
+    --max-width-card: 369px;
+    --min-width-card: 328px;
+    /* --max-height-card: 507px; */
 }
 
 html {
@@ -23,7 +25,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 17px;
     margin: 0;
     background-color: var(--color-bg-primary);
 }
